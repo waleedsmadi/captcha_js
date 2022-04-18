@@ -22,28 +22,29 @@
         <!-- Start captcha testing -->
         <section class="captcha-area">
 
-            <div class="captcha-text">
+            <div class="captcha-text" data-c-text>
+                <!-- text should be here -->
                 <div class="overlay"></div>
-                ABCDEF
             </div>
 
-            <div class="change-btn">
+
+            <div class="change-btn" data-c-change-btn>
                 <i class="fa-solid fa-arrow-rotate-right"></i>
             </div>
         </section>
 
-        
+
 
         <!-- Start captcha input -->
         <section class="captcha-input">
-            <input type="text" placeholder="Enter captcha" required>
-            <button type="button" class="check-btn hide">check</button>
+            <input type="text" placeholder="Enter captcha" required data-c-input>
+            <button type="button" class="check-btn hide" data-c-check-btn>check</button>
         </section>
 
 
         <!-- Start captcha result -->
-        <section class="captcha-result">
-            
+        <section class="captcha-result" data-c-result>
+            <!-- Result should be here-->
         </section>
     </div>
 

@@ -41,14 +41,17 @@ body{background-color: #50B2EA;}
     background-image: url("/captcha_pic.jpeg");
     background-size: cover;
     height: 100%;
-    width: 80%;
+    width: 100%;
     padding: 0 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: white;
+    font-weight: bolder;
     font-size: 35px;
     letter-spacing: 22px;
     background-color: black !important;
+    user-select: none;
 }
 
 .captcha-area .overlay{
@@ -62,7 +65,7 @@ body{background-color: #50B2EA;}
 
 .change-btn{
     background-color: #50B2EA;
-    width: 100%;
+    width: 20%;
     margin-left: 5px;
     color: #fff;
     font-size: 25px;

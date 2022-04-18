@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha | JS</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <div class="captcha">
+
+        <!-- Start Header -->
+        <section class="header-text">
+            <h2>Captcha in JavaScript</h2>
+        </section>
+
+
+        <!-- Start captcha testing -->
+        <section class="captcha-area">
+
+            <div class="captcha-text">
+                <div class="overlay"></div>
+                ABCDEF
+            </div>
+
+            <div class="change-btn">
+                <i class="fa-solid fa-arrow-rotate-right"></i>
+            </div>
+        </section>
+
+        
+
+        <!-- Start captcha input -->
+        <section class="captcha-input">
+            <input type="text" placeholder="Enter captcha" required>
+            <button type="button" class="check-btn hide">check</button>
+        </section>
+
+
+        <!-- Start captcha result -->
+        <section class="captcha-result">
+            
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
